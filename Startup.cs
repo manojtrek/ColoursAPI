@@ -33,20 +33,20 @@ namespace ColoursAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Mark Harrison Colours API",
+                    Title = "Manoj Talreja Colours API",
                     Version = "v1",
                     Description = "Colours API",
-                    TermsOfService = new Uri("https://github.com/markharrison"),
+                    TermsOfService = new Uri("https://github.com/manojtrek"),
                     Contact = new OpenApiContact
                     {
-                        Name = "Mark Harrison",
-                        Email = "mark.coloursapi@harrison.ws",
-                        Url = new Uri("https://github.com/markharrison"),
+                        Name = "Manoj Talreja",
+                        Email = "manojtrek@gmail.com",
+                        Url = new Uri("https://github.com/manojtrek"),
                     },
                     License = new OpenApiLicense
                     {
                         Name = "Use under MIT License",
-                        Url = new Uri("https://github.com/markharrison/ColourAPI/blob/master/LICENSE"),
+                        Url = new Uri("https://github.com/manojtrek/ColourAPI/blob/master/LICENSE"),
                     }
                 }
                 );
@@ -81,7 +81,7 @@ namespace ColoursAPI
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Mark Harrison Colours API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Manoj Talreja Colours API V1");
                 c.RoutePrefix = string.Empty;
             });
 
